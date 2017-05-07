@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login" >
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="480dp"
+         android:orientation="vertical" >
+
+         <ImageView
+             android:id="@+id/imageView6"
+             android:layout_width="match_parent"
+             android:layout_height="119dp"
+             android:src="@drawable/logo" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="498dp"
+              android:layout_height="51dp"
+              android:text="Enter The Mobile Number"
+              android:textAppearance="?android:attr/textAppearanceLarge" />
+
+          <EditText
+              android:id="@+id/editno1"
+              android:layout_width="match_parent"
+              android:layout_height="49dp"
+              android:hint="Enter Number"
+              android:inputType="phone"
+              android:textAppearance="?android:attr/textAppearanceLarge" />
+
+          <TextView
+              android:id="@+id/textView2"
+              android:layout_width="match_parent"
+              android:layout_height="49dp"
+              android:text="Confirm Your Mobile Number"
+              android:textAppearance="?android:attr/textAppearanceLarge" />
+
+          <EditText
+              android:id="@+id/editno2"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:hint="Enter Number"
+              android:inputType="phone"
+              android:textAppearance="?android:attr/textAppearanceLarge" />
+
+          
+     <TableLayout
+        android:id="@+id/tablelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/smsbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="smsset"
+                android:src="@drawable/setnum" />
+
+        <ImageView
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="tracker"
+            android:src="@drawable/off" />
+
+        </TableRow>
+        </TableLayout>>
+    
+    </LinearLayout>>
+
+</ScrollView>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:background="@drawable/shakebac" >
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="How To Use This App? "
+        android:textColor="@color/black"
+        android:textSize="47sp" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/step1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            	android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:text="Step 1" />
+
+            <TextView
+                android:id="@+id/des1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Set the password of minimum 1 and maximum 10 digit which can be used further by you to login to app" />
+            
+            <TextView
+                android:id="@+id/step2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Step 2" />
+
+            <TextView
+                android:id="@+id/des2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Set your security question and its corresponding answer which will later on help you to reset your password if the password is lost" />
+
+            <TextView
+                android:id="@+id/step3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Step 3" />
+
+            <TextView
+                android:id="@+id/des3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Select the option in which you want to set the settings and want to change anything" />
+            
+            
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:background="@android:color/darker_gray" />
+            
+            <TextView
+                android:id="@+id/step4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Help for Mobile Tracker" />
+            
+            <TextView
+                android:id="@+id/step5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Step 4" />
+
+            <TextView
+                android:id="@+id/des4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Enter your prefered contact on which you want to keep track of your mobile in the set mobile numbers and save it" />
+
+            <TextView
+                android:id="@+id/step6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Step 5" />
+
+            <TextView
+                android:id="@+id/des5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Set the tracker in on state so that app can be used, If the Status is 1 that means tracker is on otherwise it is 0 means tracker is off" />
+
+            <TextView
+                android:id="@+id/step7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Sim Info" />
+
+            <TextView
+                android:id="@+id/des6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="This feature displays the information of your mobile and sim." />
+
+            <TextView
+                android:id="@+id/step8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Change Password" />
+
+            <TextView
+                android:id="@+id/des7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="To change the login password of the app" />
+
+            <TextView
+                android:id="@+id/step9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Reset Apps" />
+
+            <TextView
+                android:id="@+id/des8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="To reset the app by reseting all the password and phone numbers etc" />
+            
+            
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:background="@android:color/darker_gray" />
+            
+             <TextView
+                android:id="@+id/step10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Help for Shake" />
+             
+             <TextView
+                android:id="@+id/step11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Step 9" />
+
+            <TextView
+                android:id="@+id/des9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Enter your prefered contacts in the add contacts and save them, the contacts you enter are in order of priority (the number you enter in first place will have highest prority)" />
+
+            <TextView
+                android:id="@+id/step12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Step 10" />
+
+            <TextView
+                android:id="@+id/des10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="adjust your settings in settings option" />
+
+            <TextView
+                android:id="@+id/step13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Step 11" />
+
+            <TextView
+                android:id="@+id/des11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="if you feel that you are in danger or going to such a place which might be dangerous for you then just shake the phone vigorously to activte the service and send your Security Message to your prefered contacts" />
+            
+            
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:background="@android:color/darker_gray" />
+            
+            <TextView
+                android:id="@+id/step14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Help For Call Blocker" />
+            
+             <TextView
+                android:id="@+id/step15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Step 12" />
+
+            <TextView
+                android:id="@+id/des12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="If you want to block a particular number the you can block it by adding it to the block list from call logs, contact list and you can add it manually" />
+            
+			<TextView
+                android:id="@+id/step16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Step 13" />
+
+            <TextView
+                android:id="@+id/des13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="If you want to delete the contact from the blacklist then we have to just click on that number in the remove contact option " />
+            
+            
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:background="@android:color/darker_gray" />
+            
+            <TextView
+                android:id="@+id/step17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Help For Button Click" />
+            
+             <TextView
+                android:id="@+id/step18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Step 14" />
+
+            <TextView
+                android:id="@+id/des14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="If you want to call for help then you just have to press the power button 3 times and a security message and your location will automatically send to your saved numbers" />
+            
+			<TextView
+                android:id="@+id/step19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Step 15" />
+
+            <TextView
+                android:id="@+id/des15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="You can send messages too multiple number you just have to type tha number and click add button and the again type the another number and after saving the message and all your security numbers just click save all and start the service after that whenever you press power button 3 times message will be sent" />
+            
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="Note" />
+
+            <TextView
+                android:id="@+id/des16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:text="This app requires SMS" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

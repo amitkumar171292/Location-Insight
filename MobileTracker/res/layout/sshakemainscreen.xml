@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shakeb"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:textColor="@color/black"
+            android:text="SHAKE "
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:src="@drawable/logo" />
+
+     <TableLayout
+        android:id="@+id/tablelayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+        <ImageView
+            android:id="@+id/imagePower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="set"
+            android:src="@drawable/off" />
+
+        <ImageView
+            android:id="@+id/imageContacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="switchToContacts"
+            android:src="@drawable/contact" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        </TableRow>
+          </TableLayout>
+
+          
+    </LinearLayout>
+ 
+</ScrollView>
